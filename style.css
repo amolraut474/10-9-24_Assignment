@@ -147,7 +147,7 @@ padding: 0px 0px 0px 50px;
 /* Highlights Section */
 .highlights {
   display: flex;
-  background: url('./BG_1.png');
+  background: url('./img/BG_1.png');
   padding: 40px;
   background-size: cover;
   background-position: center center;
