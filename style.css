@@ -237,9 +237,11 @@ padding: 0px 0px 0px 50px;
 
 .left h1,
 .right h1 {
-  color: #0097a7;
-  font-size: 2em;
-  margin: 0;
+     color: #1F99A7;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 300;
+    margin: 0;
 }
 
 .left form {
@@ -348,7 +350,7 @@ padding: 0px 0px 0px 50px;
     max-width: 1200px;
     padding: 40px;
     margin: 80px auto;
-    border-bottom: 1px solid #ddd;
+
   }
   
   .text-section {
