@@ -213,7 +213,10 @@ padding: 0px 0px 0px 50px;
   width: 80%;
   flex-wrap: wrap;
 }
-
+.section-footer {
+    background: #fff;
+      padding: 60px 0px;
+}
 .left,
 .right {
   display: flex;
