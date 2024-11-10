@@ -172,6 +172,16 @@ padding: 0px 0px 0px 50px;
   margin-right: 10px;
   color: #fff;
 }
+.highlight-right {
+  text-align: left;
+  color: #fff;
+}
+
+.highlight-right h2 {
+  color: #ffffff;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
 
 
 
