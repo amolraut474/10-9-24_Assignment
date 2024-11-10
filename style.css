@@ -329,6 +329,55 @@ padding: 0px 0px 0px 50px;
 
 
 /* .product-card-section */
+.Neelambh {
+    position: relative;
+}
+.Neelambh:before {
+    content: "";
+    display: block;
+    background-image: url('https://amolraut474.github.io/10-9-24_Assignment/img/Mask%20Group%203.png'); 
+    background-size: cover;
+    width: 100px;  
+    height: 100px;  
+    margin-bottom: 10px; 
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); /* Centers the image vertically */
+}
+.Himalayan{
+    position: relative;
+}
+.Himalayan:before {
+    content: "";
+    display: block;
+    background-image: url('https://amolraut474.github.io/10-9-24_Assignment/img/Mask%20Group%203.png'); 
+    background-size: cover;
+    width: 100px;  
+    height: 100px;  
+    margin-bottom: 10px; 
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); /* Centers the image vertically */
+}  
+
+.Samadhi{
+    position: relative;
+}
+.Samadhi:before {
+    content: "";
+    display: block;
+    background-image: url('https://amolraut474.github.io/10-9-24_Assignment/img/Mask%20Group%203.png'); 
+    background-size: cover;
+    width: 100px;  
+    height: 100px;  
+    margin-bottom: 10px; 
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); /* Centers the image vertically */
+}  
   /* Fixed Background Circle */
   .background-circle {
    position: fixed;
