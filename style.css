@@ -441,7 +441,16 @@ position: relative;
     right: 106px;
     z-index: 0;
 }
-  
+  .Samadhi .flower.left {
+    top: 55px;
+    left: -22px;
+    z-index: 1;
+}
+.Samadhi .flower.right {
+    bottom: -35px;
+    right: -10px;
+    z-index: 0;
+}
   /* Responsive Design */
   @media (max-width: 768px) {
     .product-section {
