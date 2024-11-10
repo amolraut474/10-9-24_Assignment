@@ -222,6 +222,7 @@ padding: 0px 0px 0px 50px;
   justify-content: space-between;
   width: 80%;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 .section-footer {
     background: #fff;
