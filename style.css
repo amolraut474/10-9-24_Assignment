@@ -431,7 +431,16 @@ transition: all 0.3s;
   .product-card-section{
 position: relative;
   }
-
+.Himalayan .flower.left {
+    top: 164px;
+    left: 93px;
+    z-index: 1;
+}
+.Himalayan .flower.right {
+    bottom: -6px;
+    right: 106px;
+    z-index: 0;
+}
   
   /* Responsive Design */
   @media (max-width: 768px) {
