@@ -17,13 +17,18 @@ body {
 }
 
 .header-section {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding: 20px 50px;
-  width: 1420px;
+ display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 50px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  background: #fff;
 }
-
+.hero-section-2 {
+    background: #fff;
+}
 
 .navbar a {
   margin-left: 20px;
@@ -51,6 +56,9 @@ body {
 padding: 0px 0px 0px 50px;
   background-color: #ffffff;
   flex-wrap: wrap;
+ max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .hero-text {
@@ -77,7 +85,8 @@ padding: 0px 0px 0px 50px;
 
 .hero-image img {
   max-width: 100%;
-  height: auto;
+    height: auto;
+    width: 450px;
 }
 .hero-image {
   display: flex;
@@ -164,8 +173,11 @@ padding: 0px 0px 0px 50px;
 
 .highlight-text ul {
   list-style: none;
-  color: #fff;
-  font-size: 1.1em;
+    color: #805E60;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .highlight-text ul li:before {
@@ -189,10 +201,12 @@ padding: 0px 0px 0px 50px;
 /* Quality Section */
 .quality {
   display: flex;
-  justify-content: space-around;
-  background-color: #1F99A7;
-  padding: 80px 20px;
-  gap: 30px;
+    justify-content: space-around;
+    background-color: #1F99A7;
+    padding: 80px 20px;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .quality-feature {
@@ -219,11 +233,13 @@ padding: 0px 0px 0px 50px;
 
 /* Footer Section */
 .footer-part {
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-  flex-wrap: wrap;
-  margin: 0 auto;
+   display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 .section-footer {
     background: #fff;
@@ -330,6 +346,10 @@ padding: 0px 0px 0px 50px;
 
 
 /* .product-card-section */
+.card-section {
+    background-color: #1F99A7;
+}
+
 .Neelambh {
     position: relative;
 }
@@ -350,17 +370,17 @@ padding: 0px 0px 0px 50px;
     position: relative;
 }
 .Himalayan:before {
-    content: "";
+     content: "";
     display: block;
-    background-image: url('./img/rose.png'); 
+    background-image: url('./img/Mask Group 7.png');
     background-size: cover;
-    width: 100px;  
-    height: 100px;  
-    margin-bottom: 10px; 
+   width: 150px;
+    height: 248px;
+    margin-bottom: 10px;
     position: absolute;
-    left: 0;
+    left: -117px;
     top: 50%;
-    transform: translateY(-50%); /* Centers the image vertically */
+    transform: translateY(-50%);
 }  
 
 .Samadhi{
@@ -369,15 +389,15 @@ padding: 0px 0px 0px 50px;
 .Samadhi:before {
     content: "";
     display: block;
-    background-image: url('./img/Mask Group 7.png'); 
+    background-image: url('./img/Mask Group 7.png');
     background-size: cover;
-    width: 100px;  
-    height: 100px;  
-    margin-bottom: 10px; 
+    width: 150px;
+    height: 248px;
+    margin-bottom: 10px;
     position: absolute;
-    left: 0;
+    left: -117px;
     top: 50%;
-    transform: translateY(-50%); /* Centers the image vertically */
+    transform: translateY(-50%);
 }  
   /* Fixed Background Circle */
   .background-circle {
@@ -387,7 +407,7 @@ padding: 0px 0px 0px 50px;
     background-color: #f8bbd0;
     border-radius: 50%;
     top: 50%;
-    right: -47px;
+    right: 0px;
     transform: translate(-50%, -50%);
     z-index: -1;
     opacity: 0.3;
@@ -405,15 +425,25 @@ padding: 0px 0px 0px 50px;
   }
   
   .text-section {
-    max-width: 350px;
+   width: 75% !important;
+    position: relative;
   }
   
   .text-section h1 {
+     font-size: 36px;
+    color: #107B69;
+    margin-bottom: 15px;
+  }
+.Himalayan .text-section h1 {
+    font-size: 36px;
+    color: #9C3610;
+    margin-bottom: 15px;
+}
+.Samadhi .text-section h1 {
     font-size: 36px;
     color: #05075F;
     margin-bottom: 15px;
-  }
-
+}
   .text-section p {
     font-size: 16px;
     color: #B4B4B4;
@@ -422,14 +452,17 @@ padding: 0px 0px 0px 50px;
   }
 
   .buy-now {
-display: inline-block;
-padding: 10px 25px;
-border: 2px solid #00796b; /* Fixed the color code */
-border-radius: 50px;
-color: #00796b;
-font-size: 16px;
-text-decoration: none;
-transition: all 0.3s;
+ display: inline-block;
+    padding: 35px 15px;
+    border: 2px solid #00796b;
+    border-radius: 67px;
+    color: #00796b;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.3s;
+    position: absolute;
+    right: 0;
+    bottom: -123px;
 }
 
   
@@ -502,18 +535,45 @@ position: relative;
     right: -10px;
     z-index: 0;
 }
+.product-section {
+    position: relative;
+}
   /* Responsive Design */
-  @media (max-width: 768px) {
-    .product-section {
+@media (max-width: 768px) {
+  .product-section {
       flex-direction: column;
       align-items: center;
       text-align: center;
     }
-    .background-circle {
-      width: 300px;
-      height: 300px;
+    .hero-text h1 {
+        font-size: 25px;
     }
-    .text-section {
+  .buy-now {
+    position: relative;
+       bottom: 0;
+   
+}
+  .background-circle {
+    width: 300px;
+      height: 300px;
+    right: -54px;
+    transform: 
+}
+  .quality {
+ 
+    padding: 60px 20px;
+
+    gap: 50px;
+   
+    flex-direction: column;
+}
+  .footer-part {
+    
+   
+    flex-direction: column;
+    align-content: center;
+}
+  .text-section {
       margin-bottom: 20px;
     }
-  }
+}
