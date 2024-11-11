@@ -356,22 +356,6 @@ padding: 0px 0px 0px 50px;
 .Neelambh:before {
     content: "";
     display: block;
-    background-image: url('./img/Mask Group 7.png'); 
-    background-size: cover;
-    width: 100px;  
-    height: 100px;  
-    margin-bottom: 10px; 
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%); /* Centers the image vertically */
-}
-.Himalayan{
-    position: relative;
-}
-.Himalayan:before {
-     content: "";
-    display: block;
     background-image: url('./img/Mask Group 7.png');
     background-size: cover;
    width: 150px;
@@ -381,7 +365,23 @@ padding: 0px 0px 0px 50px;
     left: -117px;
     top: 50%;
     transform: translateY(-50%);
-}  
+}
+.Himalayan{
+    position: relative;
+}
+.Himalayan:before {
+    content: "";
+    display: block;
+    background-image: url('./img/rose.png');
+    background-size: cover;
+    width: 248px;
+    height: 248px;
+    margin-bottom: 10px;
+    position: absolute;
+    left: -225px;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 .Samadhi{
     position: relative;
@@ -398,7 +398,7 @@ padding: 0px 0px 0px 50px;
     left: -117px;
     top: 50%;
     transform: translateY(-50%);
-}  
+}
   /* Fixed Background Circle */
   .background-circle {
    position: fixed;
