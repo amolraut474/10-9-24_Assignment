@@ -199,6 +199,15 @@ padding: 0px 0px 0px 50px;
 
 
 /* Quality Section */
+.highlight-right {
+    text-align: left;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-content: center;
+    justify-content: center;
+}
 .quality {
   display: flex;
     justify-content: space-around;
