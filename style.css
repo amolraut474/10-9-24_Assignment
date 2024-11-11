@@ -191,9 +191,9 @@ padding: 0px 0px 0px 50px;
 }
 
 .highlight-right h2 {
-  color: #ffffff;
-  font-size: 2em;
-  margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 
@@ -547,6 +547,13 @@ position: relative;
 .product-section {
     position: relative;
 }
+.banner-content {
+    display: flex;
+    align-content: center;
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+}
   /* Responsive Design */
 @media (max-width: 768px) {
   .product-section {
@@ -585,4 +592,19 @@ position: relative;
   .text-section {
       margin-bottom: 20px;
     }
+  .highlights {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    /* gap: 31px; */
+} 
+  .highlight-right {
+    gap: 10px;
+    padding-top: 40px;
+}
+  .banner-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 }
